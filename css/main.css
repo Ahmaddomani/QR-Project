@@ -1,0 +1,53 @@
+/*  start virables */
+:root{
+    --background-color:rgb(213,225,239);
+}
+/*  end virables */
+/* start global valuse */
+body{
+    font-family: sans-serif;
+}
+/* end global valuse */
+/* start page */
+.page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    width: 90%;
+    height: 600px;
+    background-color: var(--background-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 16px 1px #aaa;
+}
+.box {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+.text {
+    text-align: center;
+} 
+ h2{
+    margin: 10px auto;
+    line-height: 1.5;
+    font-size: 19px;
+    opacity: 0.8;
+}
+ p {
+    color: rgb(195,195,195);
+    font-size: 14px;
+    font-weight: 500;
+}
+/* end page */
